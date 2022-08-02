@@ -1,6 +1,5 @@
 streamlit
 pandas
 numpy
-tensorflow
-keras 
+tensorflow 
 matplotlib
