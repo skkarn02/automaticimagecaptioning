@@ -71,7 +71,7 @@ else :
     st.markdown("OOPS !!!!!!!!!! You are not ready with some images 😬. Don't worry i have some images for you click on the below button and it will generate caption to a random image from a set of images. 😎")
     if st.button('Generate Caption for a random image') :
         ran_num=np.random.randint(0,8)
-        img_static_path='./static/'+str(ran_imageid[ran_num])+'.jpg'
+        img_static_path=str(ran_imageid[ran_num])+'.jpg'
         img_temp=plt.imread(img_static_path)
         st.image(img_temp)
         fvs=preprocess_image(img_static_path)
