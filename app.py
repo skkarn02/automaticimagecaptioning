@@ -1,10 +1,10 @@
 
 import streamlit as st
 import matplotlib.pyplot as plt
-from keras.applications.inception_v3 import InceptionV3,preprocess_input
-from keras.preprocessing import image
-from keras.models import *
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.applications.inception_v3 import InceptionV3,preprocess_input
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import *
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import pickle as pkl
 from PIL import Image
